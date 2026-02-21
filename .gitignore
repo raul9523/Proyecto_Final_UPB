@@ -34,3 +34,6 @@ secret_settings.py
 dist/
 build/
 *.spec
+
+##DEPENDENCIAS
+node_modules/
