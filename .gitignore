@@ -1,0 +1,36 @@
+# --- SISTEMA OPERATIVO ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- PYTHON ---
+# No subas la carpeta del entorno virtual
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- BASES DE DATOS Y LOGS ---
+*.log
+*.sql
+*.sqlite3
+# Si usas MySQL local, no subas volcados de datos pesados
+data/
+
+# --- EDITORES DE CÓDIGO ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- ARCHIVOS SENSIBLES (¡IMPORTANTE!) ---
+# Aquí es donde irían tus credenciales de base de datos
+.env
+.flaskenv
+secret_settings.py
+
+# --- COMPILADOS Y TEMPORALES ---
+dist/
+build/
+*.spec
